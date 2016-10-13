@@ -33,10 +33,9 @@ class Movie {
   }
 
   toString () {
-    return `${this.title}
-            ${this.summary}
-            ${this.rating}
-            ${this.image}`
+    return `${this.title}: ${this.rating}/10
+
+${this.summary}`;
   }
 
   get rss () {

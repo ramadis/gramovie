@@ -4,7 +4,7 @@
   "description": "Gramovie get you the latest movies to download on torrent, and let you add them to a torrent queue",
   "main": "run.js",
   "scripts": {
-    "start": "node App.js"
+    "start": "node app/App.js"
   },
   "keywords": [
     "movies",
