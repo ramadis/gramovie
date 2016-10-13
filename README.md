@@ -1,6 +1,6 @@
 # @gramovie
 
-`@gramovie` is a [Telegram's](https://telegram.org/) bot to look and automatically download movies from different torrent sources. As soon as it is uploaded to a source, get the movie info in your phone, and if you want, start the download right away. Start talking to it on [Telegram's bot store](https://storebot.me/bot/gramovie). So far, its only source is YTS.
+`@gramovie` is a [Telegram's](https://telegram.org/) bot to look and automatically download files from different torrent sources. As soon as it is uploaded to a source, get the file information in your phone, and if you want, start the download right away. Probably it will never be available on Telegram's store. So far, its only source is YTS.
 
 ## Installation
 Just run `npm install` to install every dependency.
@@ -18,5 +18,8 @@ Talking to `@gramovie`:
 => *Resend message to download* 
 ```
 
-## Collaboration
+## Disclaimer
+Any unintended or illegal use of this application is responsability of the user. This app was developed as a programming exercise, and should not be used with harmful purposes.
+
+## Contributing
 Feel free to submit PRs and Issues.
