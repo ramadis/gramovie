@@ -1,0 +1,25 @@
+{
+  "name": "gramovie",
+  "version": "0.1.0",
+  "description": "Gramovie get you the latest movies to download on torrent, and let you add them to a torrent queue",
+  "main": "run.js",
+  "scripts": {
+    "start": "node App.js"
+  },
+  "keywords": [
+    "movies",
+    "torrent",
+    "download",
+    "automatic",
+    "tv shows"
+  ],
+  "author": "rama",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "lodash": "^4.13.1",
+    "node-telegram-bot-api": "^0.23.3",
+    "rss": "^1.2.1",
+    "rss-parser": "^2.5.2"
+  }
+}
