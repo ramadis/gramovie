@@ -30,7 +30,7 @@ class Messenger {
    
     let movie;
     this.sources.find((source) => movie = movie || source.findMovie(title))
-    this.rss.item(movie.rss);
+    if (movie) this.rss.item(movie.rss);
   }
 
   listen () {
