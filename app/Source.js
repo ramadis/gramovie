@@ -9,7 +9,6 @@ class Source {
     this.movies = [];
     this.queue = [];
     this.feed = feed;
-    this.fetch();
   }
 
   inform () {
@@ -35,7 +34,8 @@ class Source {
         const movies = rawMovies.filter(todayMoviesFilter)
                                 .map((rawMovie) => new Movie(rawMovie));
 
-        this.queue.push(..._.difference(movies, this.movies));
+        const difference = movies.filter((movie) => !this.movies.find(savedMovie => savedMovie.title === movie.title))
+        this.queue.push(...difference);
         resolve();
       });
     });

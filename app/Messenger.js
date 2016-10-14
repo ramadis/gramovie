@@ -41,9 +41,7 @@ class Messenger {
         .then(() => this.sendMovies());
     }
 
-//    sendMessages();
-    setInterval(sendMessages, 1000 * 60 * 2); // 30 mins
-
+    setInterval(sendMessages, 1000 * 60 * 1); // 30 mins
     this.bot.on('text', this.receive.bind(this));
   }
 }
